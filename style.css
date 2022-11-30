@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
+
 * {
 	padding: 0;
 	margin: 0;
@@ -6,4 +8,84 @@
 
 body {
 	background-color: #2b2923;
+	margin: auto;
+	overflow: hidden;
+	font-family: "Montserrat", sans-serif;
+}
+
+/* ----------- CSS for nav bar ----------- */
+nav {
+	height: 20vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 300px;
+}
+
+nav img {
+	height: 40px;
+}
+
+ul {
+	display: flex;
+	align-items: center;
+}
+
+li {
+	list-style-type: none;
+	margin: 0 15px;
+	color: #86847c;
+}
+
+li:last-child {
+	margin-right: -190px;
+}
+
+button {
+	color: #a09036;
+	border: 1px solid #a09036;
+	background-color: #2b2923;
+	padding: 10px 25px;
+	border-radius: 10px;
+}
+
+/* ---------- CSS for hero section ---------- */
+.text-section {
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+}
+
+.left-section {
+	width: 50%;
+	margin-left: 295px;
+	padding-right: 100px;
+}
+
+h1 {
+	font-size: 50px;
+	color: #f1f0ee;
+	margin-top: 20px;
+}
+
+.right-section {
+	width: 50%;
+	margin-right: 125px;
+}
+
+p {
+	font-size: 16px;
+	color: #dddcda;
+	line-height: 25px;
+	padding-right: 160px;
+}
+
+.image-section {
+	margin-top: 40px;
+}
+
+.image-section img {
+	height: 55vh;
+	width: 61vw;
+	margin-left: 300px;
 }
