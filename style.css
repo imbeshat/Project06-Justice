@@ -8,18 +8,19 @@
 
 body {
 	background-color: #2b2923;
+	max-width: 1440px;
 	margin: auto;
 	overflow: hidden;
 	font-family: "Montserrat", sans-serif;
+	padding: 0 135px;
 }
 
 /* ----------- CSS for nav bar ----------- */
 nav {
-	height: 20vh;
+	padding: 40px 0;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin: 0 300px;
 }
 
 nav img {
@@ -28,7 +29,9 @@ nav img {
 
 ul {
 	display: flex;
+	justify-content: flex-end;
 	align-items: center;
+	margin-left: 200px;
 }
 
 li {
@@ -52,32 +55,30 @@ button {
 /* ---------- CSS for hero section ---------- */
 .text-section {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
-	/* justify-content: space-between; */
 }
 
 .left-section {
 	width: 50%;
-	margin-left: 295px;
-	padding-right: 100px;
 }
 
 h1 {
-	font-size: 50px;
+	font-size: 65px;
 	color: #f1f0ee;
 	margin-top: 20px;
+	font-weight: 600;
 }
 
 .right-section {
 	width: 50%;
-	margin-right: 125px;
 }
 
 p {
-	font-size: 16px;
+	font-size: 17px;
 	color: #dddcda;
 	line-height: 25px;
-	padding-right: 160px;
+	margin-left: 180px;
 }
 
 .image-section {
@@ -87,5 +88,5 @@ p {
 .image-section img {
 	height: 55vh;
 	width: 61vw;
-	margin-left: 300px;
+	margin: 0 auto;
 }
